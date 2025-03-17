@@ -12,11 +12,11 @@ public class Answer {
     @Column(name = "a_id")
     private int id;
 
-    @Column(name = "a_correct")
-    private boolean correct;
-
     @Column(name = "a_text")
     private String text;
+
+    @Column(name = "a_correct")
+    private boolean correct;
 
     public Answer() {
 
